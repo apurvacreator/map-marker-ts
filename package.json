@@ -1,4 +1,9 @@
 {
+  "name": "map-marker",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx parcel index.html"
+  },
   "dependencies": {
     "@faker-js/faker": "7.6.0",
     "@types/google.maps": "^3.58.1"
